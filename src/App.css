@@ -1,0 +1,95 @@
+.app {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: 100%;
+  min-height: 100%;
+  /* text-align: center; */
+  margin-bottom: 8em;
+}
+
+.app-header {
+  background-color: #282c34;
+  height: 8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 48px;
+  color: white;
+}
+
+.search-container {
+  padding: 1em;
+  text-align: center;
+  background-color: cornsilk;
+  border-bottom: 1px solid burlywood;
+}
+
+.search-container form {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
+}
+
+.search-input button[type='submit'] {
+  margin-left: 0.5em;
+}
+
+.search-input, .search-filter-container {
+  margin: 1em 0;
+}
+
+.search-filter-container {
+  /* text-align: left; */
+}
+
+.searchInput {min-width: 200px;}
+
+.search-filter {
+  /* display: inline-block; */
+}
+
+.search-filter label { 
+  display: inline-block;
+  width: 90px;
+}
+.book-tile {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 240px;
+  margin: 1em;
+  border-bottom: 1px solid black;
+}
+
+.book-tile:last-child {
+  border-bottom: none;
+}
+
+.book-info {
+  margin-left: 200px;
+}
+
+.book-links-container {
+  align-self: flex-end;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+a.book-link {
+  width: 150px;
+  margin: 1em;
+  padding: 1em;
+  text-align: center;
+  background-color: darkorchid;
+  color: white;
+  text-decoration: none;
+}
+
+.book-tile img {
+  margin: 1em;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
